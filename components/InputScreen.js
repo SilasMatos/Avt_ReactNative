@@ -9,7 +9,7 @@ function InputScreen() {
 
   const handleTextChange = (text) => {
     setText(text);
-    if (text.toLowerCase().includes('jean é viado')) {
+    if (text.toLowerCase().includes('ok')) {
       setShowAlert(true);
       Animated.timing(alertOpacity, {
         toValue: 1,
